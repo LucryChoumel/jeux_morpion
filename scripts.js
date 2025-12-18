@@ -82,6 +82,7 @@ function handleCellClick(event) {
 
     cell.textContent = currentPlayer;
     cell.style.color = currentPlayer === 'X' ? 'blue' : 'red';
+    console.log(cell.textContent);
     
     
     if (checkWinner()) {
